@@ -6,7 +6,12 @@
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean",
+<<<<<<< HEAD
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
+=======
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ui:add": "pnpm --filter ui ui:add"
+>>>>>>> 162068d202cf71effa642eccf6749fe941355a22
   },
   "devDependencies": {
     "eslint": "^8.54.0",

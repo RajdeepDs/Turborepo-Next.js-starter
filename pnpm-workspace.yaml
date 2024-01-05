@@ -1,4 +1,7 @@
 packages:
   - "apps/*"
   - "packages/*"
+<<<<<<< HEAD
   - "tooling/*"
+=======
+>>>>>>> 162068d202cf71effa642eccf6749fe941355a22

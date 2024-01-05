@@ -6,15 +6,24 @@
   ],
   "exports": {
     ".": "./src/index.tsx",
+<<<<<<< HEAD
     "./styles.css": "./dist/index.css",
     "./card": "./src/card.tsx"
+=======
+    "./styles.css": "./dist/index.css"
+>>>>>>> 162068d202cf71effa642eccf6749fe941355a22
   },
   "license": "MIT",
   "scripts": {
     "build": "tailwindcss -i ./src/styles.css -o dist/index.css",
     "lint": "eslint src/",
     "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
+<<<<<<< HEAD
     "type-check": "tsc --noEmit"
+=======
+    "type-check": "tsc --noEmit",
+    "ui:add": "pnpm dlx shadcn-ui@latest add"
+>>>>>>> 162068d202cf71effa642eccf6749fe941355a22
   },
   "peerDependencies": {
     "react": "^18.2.0"
@@ -33,10 +42,16 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
+<<<<<<< HEAD
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.305.0",
     "tailwind-merge": "^2.2.0",
+=======
+    "@repo/lib": "workspace:*",
+    "lucide-react": "^0.303.0",
+    "class-variance-authority": "0.7.0",
+>>>>>>> 162068d202cf71effa642eccf6749fe941355a22
     "tailwindcss-animate": "^1.0.7"
   }
 }
